@@ -3,6 +3,135 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "C",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ilhWancI2Sr61LERes4cvmFWbSg=",
+			"path": "bufio",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "jU6hnuOzIuq3frbgM7UyVp/3ofQ=",
+			"path": "bytes",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Mo/9J+sc7NqmOrkqvQvodV5S9f8=",
+			"path": "compress/gzip",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "gjgbYbvhN9x29+2DAEE0IktkjVY=",
+			"path": "container/heap",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "5MmM1tD2SHNMRPIO+E+zV6LQfNo=",
+			"path": "container/list",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "OJeyB15JUM0qJltkpFytJpuDlAk=",
+			"path": "container/ring",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "8AijOlwzzIJ6BMk/LyhAduLWcZU=",
+			"path": "context",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "/Dp4Vd6LqILOvgpjDOM5AFN3M1E=",
+			"path": "crypto/md5",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "lT7TmTm+V5idqYqPZ2gHCOaVBVk=",
+			"path": "crypto/rand",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "i9UfC8b7UvFKWL64b4kdg4G8Y1M=",
+			"path": "crypto/sha256",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "1INhd+PFaTKQ0UO6wA6VfDvoxhs=",
+			"path": "crypto/subtle",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ajxneIpFPjtV7Acug2+XRV2PA7M=",
+			"path": "crypto/tls",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "1gqpE68arj9/HCa+m0ZS3ryx1io=",
+			"path": "crypto/x509",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "K682xXta+0lTcfg/P2/ZAKGYj+A=",
+			"path": "database/sql/driver",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "p+hh6nSbs6Qc4f6JKmxG8RtKiEg=",
+			"path": "encoding",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "iW/e3GAeABpsUA+ZYeMfcGsR8OI=",
+			"path": "encoding/base64",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "zg/5qtMna3tN3hiQcwiR6pr6Qao=",
+			"path": "encoding/binary",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "bXVNOuTWoGxUvGYV6MSZ9ClmN78=",
+			"path": "encoding/csv",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "h2CT+Ur0C19nJGIZPbz9tIM+/tY=",
+			"path": "encoding/hex",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "gvd0wPzX9YWg/3fgukl+S3yfBgM=",
+			"path": "encoding/json",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "jjtd6Zx1Uvrm/pEQXqpDnxPKaiA=",
+			"path": "encoding/pem",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "/IgtMOBRqTxEAfVs7ATBXQMVRf4=",
+			"path": "errors",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "3tCeWqDxTvbTramIAXB8/SNbv2E=",
+			"path": "expvar",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "iw+u728yc1nNcpfayqg3bPQEyi8=",
+			"path": "flag",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "mzoFlp43xtAjBf1Xc+iWtjRMjRs=",
+			"path": "fmt",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "+Bo3QheGAtKFk7QPb+pdIEZNiYI=",
 			"path": "github.com/AndreasBriese/bbloom",
 			"revision": "28f7e881ca57bc00e028f9ede9f0d9104cfeef5e",
@@ -233,6 +362,258 @@
 			"path": "github.com/dgraph-io/dgo/y",
 			"revision": "71e4b7ed50eac8be08c25ff502be0701480f65d0",
 			"revisionTime": "2018-06-21T19:52:44Z"
+		},
+		{
+			"checksumSHA1": "oAFYJEmMWo+3S+uhmBYjLl/iq48=",
+			"path": "github.com/dgraph-io/dgraph/algo",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "RVvfXJD3XjoF0boThku2aAcxNqE=",
+			"path": "github.com/dgraph-io/dgraph/bp128",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "XPzC0FJbYaCEpjY/vyO1UTlbVbs=",
+			"path": "github.com/dgraph-io/dgraph/bp128/benchmark",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "9hvBRrImw0K01k/yveH+35OAir0=",
+			"path": "github.com/dgraph-io/dgraph/conn",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "d/H8rmBimgV06kdYtk+dDFltl/Y=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/acctupsert",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "4Cyg/sNTkn7Zkay2dXVxu/H+vgc=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/bank",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "7xTArv4ghRmnyOQYW4zcCroA9Nc=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/bigdata",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "e0nFxtH2w2CXDCtzmsT3BE1t3mY=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/mutates",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "6+31ICy/vGQWqz9TmnHDFisgPmQ=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/share",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "wjZIQuuvLsrz9twVmM+yb6Jz9hg=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/swap",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "hy8SIOztYJ54fCfqbolrVwF2xXQ=",
+			"path": "github.com/dgraph-io/dgraph/contrib/integration/testtxn",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "nF6kzHwMYvlk2WIko4wD9yquA8s=",
+			"path": "github.com/dgraph-io/dgraph/contrib/stopwords",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "fYn3l4Qa1aDKLZhbvb5jtYzQ5SY=",
+			"path": "github.com/dgraph-io/dgraph/dgraph",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "O+mb2sWRv4zhOpEZGYP4CW0AP6Q=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "B2wbjJVrcWphGcLSTdh580Uu0RI=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/bulk",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "V348epYFTrRJ31VEltfTgs1rwik=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/debug",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "FzbG/h6lnHUHRGlFypeO8q4Q4sI=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/dgraph-converter",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "CA1qmp43AjuOpR67Ep53DQpdVpY=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/live",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "/ZnNI1+tcunJ5jpcb/5/TxgmADE=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/server",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "Sd3slD4c4mKrlG1gsQSvFO0DC6g=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/version",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "M4cB3OSaFaCymTUuPN1IIdgCXMg=",
+			"path": "github.com/dgraph-io/dgraph/dgraph/cmd/zero",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "s33RiWaJQb0y8MDpfWy88h1Wv1Y=",
+			"path": "github.com/dgraph-io/dgraph/edgraph",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "Aa6S6dWh+r0EBsWTIs+TkhINPOw=",
+			"path": "github.com/dgraph-io/dgraph/gql",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "HcA8bQgzNujspxQOMeHeEsbFcQM=",
+			"path": "github.com/dgraph-io/dgraph/lex",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "oeR2Kz//pFih5YEboFYKYyZ6Yt4=",
+			"path": "github.com/dgraph-io/dgraph/posting",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "1w3wFWD+JF7wCF9Kbphwzho+qns=",
+			"path": "github.com/dgraph-io/dgraph/protos/intern",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "tjgbEjr1brEfBIE7ZBSyc3oWuEY=",
+			"path": "github.com/dgraph-io/dgraph/query",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "n0Ulg074hzzLA2aCx4l0utyTY0k=",
+			"path": "github.com/dgraph-io/dgraph/raftwal",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "qfAYtCkTEaNLXULdWroSluC6MZo=",
+			"path": "github.com/dgraph-io/dgraph/rdf",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "/CA7L7MzHEu+8NXRolWsDGsXWRA=",
+			"path": "github.com/dgraph-io/dgraph/schema",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "FBL2I+hGttk/GnlDbSI5pEBckmU=",
+			"path": "github.com/dgraph-io/dgraph/systest",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "L+eKlhN4yOkflj245XOTUE1igoM=",
+			"path": "github.com/dgraph-io/dgraph/systest/customtok/anagram",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "T9sexlaVeZmUBu0ypXOyCwriVBM=",
+			"path": "github.com/dgraph-io/dgraph/systest/customtok/cidr",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "aX5LRQNYRma2hoeLplxWmQUfAXQ=",
+			"path": "github.com/dgraph-io/dgraph/systest/customtok/factor",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "OKE8Dkprtc9TjBh98/rzJTk65MI=",
+			"path": "github.com/dgraph-io/dgraph/systest/customtok/rune",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "WkM1FXEtBKujJk8laBda4l7FPKg=",
+			"path": "github.com/dgraph-io/dgraph/task",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "Rbc3TwiK2HwMWi0qZetsUbSv5yo=",
+			"path": "github.com/dgraph-io/dgraph/tok",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "LiJk/3S9qJzdfbazjiBUq1Simqw=",
+			"path": "github.com/dgraph-io/dgraph/types",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "+N21Wj6VDEJ3UCem2rIviO1R7TY=",
+			"path": "github.com/dgraph-io/dgraph/types/facets",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "+FABZEi8E5awojxw96iFoBdLio8=",
+			"path": "github.com/dgraph-io/dgraph/worker",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "aDervD9877hVqSmWOL1suBM6YpA=",
+			"path": "github.com/dgraph-io/dgraph/x",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
+		},
+		{
+			"checksumSHA1": "6uwrlLDTh745D4yK4VTcbRRrbUU=",
+			"path": "github.com/dgraph-io/dgraph/xidmap",
+			"revision": "71de4a6438fbc3324988bcba6a9001ab23653bbb",
+			"revisionTime": "2018-07-03T09:04:30Z"
 		},
 		{
 			"checksumSHA1": "a29TtOU87eZA0S6wL+rAkpqUEzc=",
@@ -839,6 +1220,226 @@
 			"path": "gopkg.in/yaml.v2",
 			"revision": "a5b47d31c556af34a302ce5d659e6fea44d90de0",
 			"revisionTime": "2016-09-28T15:37:09Z"
+		},
+		{
+			"checksumSHA1": "4/SyZcbgor1/oc9Xl/e/wIZA8Cw=",
+			"path": "hash/crc32",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "GTb6Ce9sP8uGdoSWVe6pc9CvXoQ=",
+			"path": "hash/crc64",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Jl/g4ko7g59EzmDSbV88OGp1yeY=",
+			"path": "html/template",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "zQMMnVrjkV4jxCbMPSyMMpvVRVQ=",
+			"path": "io",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "cncTBQuqslugM/9QKe5YHBPgVv8=",
+			"path": "io/ioutil",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Lkudhk1kbtQBNP/ziEDEBNJcbUU=",
+			"path": "log",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "dNFboLKpBHH2MKG8ltwjwEgKMpQ=",
+			"path": "math",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "kNr5vKfVAGvSKEYrsAyiHotFUw0=",
+			"path": "math/big",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "8hlrlY3eaM0QzRIjhacp0UuJyZU=",
+			"path": "math/rand",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "EyM4Cz510MTKyCgoBkYEq0483xE=",
+			"path": "mime",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "z8WuvG5qD2FWBlTePRl1B/ZdcNk=",
+			"path": "net",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "FeZAPq7SwErynZNEV3B/vLgZt0s=",
+			"path": "net/http",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "JXP2Tyc3PY+tua9sSsZuIwj5hsQ=",
+			"path": "net/http/httptest",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "op+rk2gFNjbIZSE5cdIBk8JJeF8=",
+			"path": "net/http/httptrace",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "fAcNCW1oiKkaTDUsDnSUzpBAAc8=",
+			"path": "net/http/httputil",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "9Y8FrF23LOY0yhPfp7zeA4IWAuE=",
+			"path": "net/http/pprof",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "vkdCZd8vu6iaf90qkghWXcETto0=",
+			"path": "net/textproto",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "xl1tJ50oLPOnLV8WOn8vC1EsIkA=",
+			"path": "net/url",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "LNMKMmYYNipI1DkDqO7BmcLak6U=",
+			"path": "os",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "+X+q7Bi14e1yX4zk7W6uOZFE6IE=",
+			"path": "os/exec",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "XIIGZ8kPE4ffMi3m+73NiypBRkQ=",
+			"path": "os/signal",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "WiBZ0e8nWu5RNLuULOIvRFMtGrM=",
+			"path": "path",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "YvTngO2UpdLAbnbSNsZym4KnpDw=",
+			"path": "path/filepath",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "TOHNtkv9rfKwJ/UtQbIMvArRwUA=",
+			"path": "plugin",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "dMdfpc+CsuwljoA2r+P1gCMaUcg=",
+			"path": "reflect",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "aleBYOFgAPpgQ3c3HzjKfAAE9uo=",
+			"path": "regexp",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "sm+vf1LSkxExag6h9z6VyDTbkww=",
+			"path": "regexp/syntax",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ZDRkIPR2kVQEwj99L4Zw6sNMBTo=",
+			"path": "runtime",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "gC9+ECRl1bCYMGBlTioBm87V9m8=",
+			"path": "runtime/debug",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "7e8nG2QkXR8ECRyZ+cyqkIQVK0s=",
+			"path": "runtime/pprof",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "x7ewpqVDPSCqznJ0w4mICW0wDHU=",
+			"path": "runtime/trace",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "0WX971Ncla/oFW29ZZ47Rk7EXZA=",
+			"path": "sort",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Gps8k7PeSyB5nUosByXnR6E3V7M=",
+			"path": "strconv",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "q8h4iJ75oew7ecyB0G99ZM1lqqo=",
+			"path": "strings",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "+qf020Ow5odd704VxxaXGC+uxg4=",
+			"path": "sync",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "m1StJBuv862BHDLTbw1rHTD5m20=",
+			"path": "sync/atomic",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "LMMDaxl6wRorXLtu8yrDeQNEb1M=",
+			"path": "syscall",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "XW+Y2dz2CPJJwr4wrG3//yIzVkk=",
+			"path": "testing",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "MGQtH01qg9kDBZQx+kx1XRKOMus=",
+			"path": "text/tabwriter",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "u5vqpSnf+rLHExN7gfSuFdyoDFg=",
+			"path": "text/template",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ccs6vzzKEaHQVjmN3iKCu6ac+cI=",
+			"path": "time",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "PEG5E223Bpo4MPvgqg7ryYwcqYE=",
+			"path": "unicode",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "U7NVfywr2wNpfQFZFCeDdorVIm4=",
+			"path": "unicode/utf8",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "3A8sGLHVhyNfHY64cVKXreHBBdU=",
+			"path": "unsafe",
+			"revision": ""
 		}
 	],
 	"rootPath": "github.com/dgraph-io/dgraph"
